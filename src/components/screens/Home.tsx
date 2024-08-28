@@ -33,9 +33,9 @@ export default function HomeScreen() {
 			<Head title="Home" />
 
 			<div className="w-screen h-screen bg-slate-300">
-				<div className="grid grid-cols-2 h-screen">
+				<div className="grid grid-cols-3 h-screen">
 					{/* left grid */}
-					<div className="flex p-3 flex-1 w-full flex-col overflow-y-auto">
+					<div className="flex p-3 flex-1 w-full flex-col overflow-y-auto col-span-2">
 						{fantasyPlayers.map((fantasyPlayer) => (
 							<FantasyPlayerCard
 								fantasyPlayer={fantasyPlayer}
