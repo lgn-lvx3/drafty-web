@@ -1,0 +1,517 @@
+{
+  "version": 33,
+  "teams": [
+    {
+      "tid": 0,
+      "cid": 1,
+      "did": 7,
+      "region": "Arizona",
+      "name": "Cardinals",
+      "abbrev": "ARI",
+      "pop": 4.9,
+      "imgURL": "https://i.ibb.co/ZKbvHh5/Arizona-Cardinals-logo.png",
+      "colors": [
+        "#97233F",
+        "#FFFFFF",
+        "#FFFFFF"
+          ]
+    },
+	
+    {
+      "tid": 1,
+      "cid": 1,
+      "did": 6,
+      "region": "Atlanta",
+      "name": "Falcons",
+      "abbrev": "ATL",
+      "pop": 6.0,
+      "imgURL": "https://i.ibb.co/3WdGzSQ/Atlanta-Falcons-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#A71930"
+          ]
+    },
+	
+    {
+      "tid": 2,
+      "cid": 0,
+      "did": 1,
+      "region": "Baltimore",
+      "name": "Ravens",
+      "abbrev": "BAL",
+      "pop": 2.8,
+      "imgURL": "https://i.ibb.co/fGBd4LZ/Baltimore-Ravens-logo.png",
+      "colors": [
+        "#241773",
+        "#FFFFFF",
+        "#000000"
+          ]
+    },
+	
+    {
+      "tid": 3,
+      "cid": 0,
+      "did": 0,
+      "region": "Buffalo",
+      "name": "Bills",
+      "abbrev": "BUF",
+      "pop": 1.1,
+      "imgURL": "https://i.ibb.co/Wpnq2Ry/Buffalo-Bills-logo.png",
+      "colors": [
+        "#00338D",
+        "#FFFFFF",
+        "#C60C30"
+          ]
+    },
+	
+    {
+      "tid": 4,
+      "cid": 1,
+      "did": 6,
+      "region": "Carolina",
+      "name": "Panthers",
+      "abbrev": "CAR",
+      "pop": 2.6,
+      "imgURL": "https://i.ibb.co/QPswzxW/Carolina-Panthers-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#0085CA"
+          ]
+    },
+
+    {
+      "tid": 5,
+      "cid": 1,
+      "did": 5,
+      "region": "Chicago",
+      "name": "Bears",
+      "abbrev": "CHI",
+      "pop": 9.5,
+      "imgURL": "https://i.ibb.co/VxxcgQW/Chicago-Bears-logo.png",
+      "colors": [
+        "#0B162A",
+        "#FFFFFF",
+        "#C83803"
+          ]
+    },
+
+    {
+      "tid": 6,
+      "cid": 0,
+      "did": 1,
+      "region": "Cincinnati",
+      "name": "Bengals",
+      "abbrev": "CIN",
+      "pop": 2.2,
+      "imgURL": "https://i.ibb.co/JsD2bH2/Cincinnati-Bengals-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#FB4F14"
+          ]
+    },
+
+    {
+      "tid": 7,
+      "cid": 0,
+      "did": 1,
+      "region": "Cleveland",
+      "name": "Browns",
+      "abbrev": "CLE",
+      "pop": 2.0,
+      "imgURL": "https://i.ibb.co/bsxgzLN/Cleveland-Browns-logo.png",
+      "colors": [
+        "#311D00",
+        "#FFFFFF",
+        "#FF3C00"
+          ]
+    },
+
+    {
+      "tid": 8,
+      "cid": 1,
+      "did": 4,
+      "region": "Dallas",
+      "name": "Cowboys",
+      "abbrev": "DAL",
+      "pop": 7.6,
+      "imgURL": "https://i.ibb.co/BzK6JWJ/Dallas-Cowboys.png",
+      "colors": [
+        "#041E42",
+        "#FFFFFF",
+        "#7F9695"
+          ]
+    },
+
+    {
+      "tid": 9,
+      "cid": 0,
+      "did": 3,
+      "region": "Denver",
+      "name": "Broncos",
+      "abbrev": "DEN",
+      "pop": 3.0,
+      "imgURL": "https://i.ibb.co/Kbw0wVs/Denver-Broncos-logo.png",
+      "colors": [
+        "#FB4F14",
+        "#FFFFFF",
+        "#002244"
+          ]
+    },
+
+    {
+      "tid": 10,
+      "cid": 1,
+      "did": 5,
+      "region": "Detroit",
+      "name": "Lions",
+      "abbrev": "DET",
+      "pop": 4.3,
+      "imgURL": "https://i.ibb.co/PmT75TQ/Detroit-Lions-logo.png",
+      "colors": [
+        "#0076B6",
+        "#FFFFFF",
+        "#B0B7BC"
+          ]
+    },
+	
+    {
+      "tid": 11,
+      "cid": 1,
+      "did": 5,
+      "region": "Green Bay",
+      "name": "Packers",
+      "abbrev": "GB",
+      "pop": 1.6,
+      "imgURL": "https://i.ibb.co/YPyZ2qW/Green-Bay-Packers-logo.png",
+      "colors": [
+        "#203731",
+        "#FFFFFF",
+        "#FFB612"
+          ]
+    },
+
+    {
+      "tid": 12,
+      "cid": 0,
+      "did": 2,
+      "region": "Houston",
+      "name": "Texans",
+      "abbrev": "HOU",
+      "pop": 7.1,
+      "imgURL": "https://i.ibb.co/cyY8ywm/Houston-Texans-logo.png",
+      "colors": [
+        "#03202F",
+        "#FFFFFF",
+        "#A71930"
+          ]
+    },
+	
+    {
+      "tid": 13,
+      "cid": 0,
+      "did": 2,
+      "region": "Indianapolis",
+      "name": "Colts",
+      "abbrev": "IND",
+      "pop": 2.1,
+      "imgURL": "https://i.ibb.co/VM2fHSw/Indianapolis-Colts-logo.png",
+      "colors": [
+        "#013369",
+        "#FFFFFF",
+        "#FFFFFF"
+          ]
+    },
+
+    {
+      "tid": 14,
+      "cid": 0,
+      "did": 2,
+      "region": "Jacksonville",
+      "name": "Jaguars",
+      "abbrev": "JAX",
+      "pop": 1.6,
+      "imgURL": "https://i.ibb.co/b2hD75C/Jacksonville-Jaguars-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#006778"
+          ]
+    },
+	
+    {
+      "tid": 15,
+      "cid": 0,
+      "did": 3,
+      "region": "Kansas City",
+      "name": "Chiefs",
+      "abbrev": "KC",
+      "pop": 2.2,
+      "imgURL": "https://i.ibb.co/4N76K6d/Kansas-City-Chiefs-logo.png",
+      "colors": [
+        "#E31837",
+        "#FFFFFF",
+        "#FFB81C"
+          ]
+    },
+
+    {
+      "tid": 16,
+      "cid": 0,
+      "did": 3,
+      "region": "Los Angeles",
+      "name": "Chargers",
+      "abbrev": "LAC",
+      "pop": 13.2,
+      "imgURL": "https://i.ibb.co/6tWdnHr/Los-Angeles-Chargers-logo.png",
+      "colors": [
+        "#0080C6",
+        "#FFFFFF",
+        "#FFC20E"
+          ]
+    },
+	
+    {
+      "tid": 17,
+      "cid": 1,
+      "did": 7,
+      "region": "Los Angeles",
+      "name": "Rams",
+      "abbrev": "LAR",
+      "pop": 13.2,
+      "imgURL": "https://i.ibb.co/dKFYMqX/Los-Angeles-Rams-logo.png",
+      "colors": [
+        "#003594",
+        "#FFFFFF",
+        "#FFD100"
+          ]
+    },
+
+    {
+      "tid": 18,
+      "cid": 0,
+      "did": 3,
+      "region": "Las Vegas",
+      "name": "Raiders",
+      "abbrev": "LV",
+      "pop": 2.3,
+      "imgURL": "https://i.ibb.co/68st9y0/Las-Vegas-Raiders-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#A5ACAF"
+          ]
+    },
+	
+    {
+      "tid": 19,
+      "cid": 0,
+      "did": 0,
+      "region": "Miami",
+      "name": "Dolphins",
+      "abbrev": "MIA",
+      "pop": 6.2,
+      "imgURL": "https://i.ibb.co/vJCtnHq/Miami-Dolphins-logo.png",
+      "colors": [
+        "#008E97",
+        "#FFFFFF",
+        "#FC4C02"
+          ]
+    },
+	
+    {
+      "tid": 20,
+      "cid": 1,
+      "did": 5,
+      "region": "Minnesota",
+      "name": "Vikings",
+      "abbrev": "MIN",
+      "pop": 3.7,
+      "imgURL": "https://i.ibb.co/Czgt8Nn/Minnesota-Vikings-logo.png",
+      "colors": [
+        "#4F2683",
+        "#FFFFFF",
+        "#FFC62F"
+          ]
+    },
+
+    {
+      "tid": 21,
+      "cid": 0,
+      "did": 0,
+      "region": "New England",
+      "name": "Patriots",
+      "abbrev": "NE",
+      "pop": 4.9,
+      "imgURL": "https://i.ibb.co/G05NM8C/New-England-Patriots-logo.png",
+      "colors": [
+        "#002244",
+        "#FFFFFF",
+        "#C60C30"
+          ]
+    },
+
+    {
+      "tid": 22,
+      "cid": 1,
+      "did": 6,
+      "region": "New Orleans",
+      "name": "Saints",
+      "abbrev": "NO",
+      "pop": 1.3,
+      "imgURL": "https://i.ibb.co/NsD954t/New-Orleans-Saints-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#D3BC8D"
+          ]
+    },
+
+    {
+      "tid": 23,
+      "cid": 1,
+      "did": 4,
+      "region": "New York",
+      "name": "Giants",
+      "abbrev": "NYG",
+      "pop": 19.2,
+      "imgURL": "https://i.ibb.co/bBqVczQ/New-York-Giants-logo.png",
+      "colors": [
+        "#0B2265",
+        "#FFFFFF",
+        "#A71930"
+          ]
+    },
+
+    {
+      "tid": 24,
+      "cid": 0,
+      "did": 0,
+      "region": "New York",
+      "name": "Jets",
+      "abbrev": "NYJ",
+      "pop": 19.2,
+      "imgURL": "https://i.ibb.co/BVBNFKb/New-York-Jets-logo.png",
+      "colors": [
+        "#125740",
+        "#FFFFFF",
+        "#FFFFFF"
+          ]
+    },
+
+    {
+      "tid": 25,
+      "cid": 1,
+      "did": 4,
+      "region": "Philadelphia",
+      "name": "Eagles",
+      "abbrev": "PHI",
+      "pop": 6.1,
+      "imgURL": "https://i.ibb.co/PtjFLbK/Philadelphia-Eagles-logo.png",
+      "colors": [
+        "#004C54",
+        "#FFFFFF",
+        "#000000"
+          ]
+    },
+
+    {
+      "tid": 26,
+      "cid": 0,
+      "did": 1,
+      "region": "Pittsburgh",
+      "name": "Steelers",
+      "abbrev": "PIT",
+      "pop": 2.3,
+      "imgURL": "https://i.ibb.co/GvSgCXF/Pittsburgh-Steelers-logo.png",
+      "colors": [
+        "#000000",
+        "#FFFFFF",
+        "#FFB612"
+          ]
+    },
+	
+    {
+      "tid": 27,
+      "cid": 1,
+      "did": 7,
+      "region": "Seattle",
+      "name": "Seahawks",
+      "abbrev": "SEA",
+      "pop": 4.0,
+      "imgURL": "https://i.ibb.co/2ScTRnw/Seattle-Seahawks-logo.png",
+      "colors": [
+        "#002244",
+        "#FFFFFF",
+        "#69BE28"
+          ]
+    },
+	
+    {
+      "tid": 28,
+      "cid": 1,
+      "did": 7,
+      "region": "San Francisco",
+      "name": "49ers",
+      "abbrev": "SF",
+      "pop": 4.7,
+      "imgURL": "https://i.ibb.co/dMJKTFL/San-Francisco-49ers-logo.png",
+      "colors": [
+        "#AA0000",
+        "#FFFFFF",
+        "#B3995D"
+          ]
+    },
+	
+    {
+      "tid": 29,
+      "cid": 1,
+      "did": 6,
+      "region": "Tampa Bay",
+      "name": "Buccaneers",
+      "abbrev": "TB",
+      "pop": 3.2,
+      "imgURL": "https://i.ibb.co/SK9bGfH/Tampa-Bay-Buccaneers-logo-1.png",
+      "colors": [
+        "#D50A0A",
+        "#FFFFFF",
+        "#34302B"
+          ]
+    },
+	
+    {
+      "tid": 30,
+      "cid": 0,
+      "did": 2,
+      "region": "Tennessee",
+      "name": "Titans",
+      "abbrev": "TEN",
+      "pop": 1.9,
+      "imgURL": "https://i.ibb.co/kczMmTR/Tennessee-Titans-logo.png",
+      "colors": [
+        "#0C2340",
+        "#FFFFFF",
+        "#4B92DB"
+          ]
+    },
+	
+    {
+      "tid": 31,
+      "cid": 1,
+      "did": 4,
+      "region": "Washington",
+      "name": "Football Team",
+      "abbrev": "WAS",
+      "pop": 6.3,
+      "imgURL": "https://i.ibb.co/2yK3ydW/Washington-football-team-wlogo.png",
+      "colors": [
+        "#5A0C0C",
+        "#FFFFFF",
+        "#FFB70A"
+          ]
+    }
+
+  ]
+}
