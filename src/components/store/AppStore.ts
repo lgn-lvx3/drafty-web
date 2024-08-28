@@ -7,7 +7,7 @@ import { createJSONStorage, devtools, persist } from "zustand/middleware";
 import { create, type StateCreator } from "zustand";
 
 const players = Object.entries(PlayersData).map(([key, value]) => {
-	return { ...(value as Player), id: key };
+	return { ...(value as unknown as Player), id: key };
 });
 
 const active = players.filter((player) => player.active);
