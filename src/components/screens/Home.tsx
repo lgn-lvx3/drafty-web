@@ -35,7 +35,7 @@ export default function HomeScreen() {
 			<div className="w-screen h-screen bg-slate-300">
 				<div className="grid grid-cols-2 h-screen">
 					{/* left grid */}
-					<div className="flex flex-1 w-full flex-col overflow-y-auto">
+					<div className="flex p-3 flex-1 w-full flex-col overflow-y-auto">
 						{fantasyPlayers.map((fantasyPlayer) => (
 							<FantasyPlayerCard
 								fantasyPlayer={fantasyPlayer}
@@ -65,7 +65,7 @@ export default function HomeScreen() {
 							</div>
 						</div>
 
-						<div className="pt-20">
+						<div className="mt-24">
 							{filteredPlayers.map((player) => (
 								<div className="flex justify-center" key={player.id}>
 									<PlayerCard player={player} key={player.id} />

@@ -22,7 +22,6 @@ export const FantasyPlayerCard: React.FC<PlayerCardProps> = ({
 		setAppState,
 		removePoolPlayer,
 		randomizePoolPlayers,
-		removeRandomizedPlayer,
 	} = useAppStore();
 
 	return (
@@ -32,13 +31,13 @@ export const FantasyPlayerCard: React.FC<PlayerCardProps> = ({
 				className="collapse collapse-arrow bg-base-200 my-2"
 				onClick={() => selectFantasyPlayer(fantasyPlayer.id)}
 			>
-				<input type="radio" name="my-accordion-2" defaultChecked />
-				<div className="collapse-title flex flex-col mb-3">
+				<input type="radio" name={fantasyPlayer.id.toString()} defaultChecked />
+				<div className="collapse-title flex flex-col">
 					{/* Header */}
 					<h1 className="text-3xl text-ellipsis">{fantasyPlayer.name}</h1>
 					<span className="text-xs">{fantasyPlayer.id}</span>
 				</div>
-				<div className="collapse-content">
+				<div className="collapse-content p-3">
 					{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 					<div>
 						<Card
@@ -48,7 +47,7 @@ export const FantasyPlayerCard: React.FC<PlayerCardProps> = ({
 									: ""
 							}`}
 						>
-							<Card.Body>
+							<Card.Body className="p-3">
 								<div className="flex">
 									<div className="grid grid-cols-3 gap-4">
 										<div className="flex flex-col">

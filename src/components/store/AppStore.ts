@@ -306,6 +306,7 @@ const createStoreSlice: StateCreator<
 		set(
 			{
 				fantasyPlayers: [...get().fantasyPlayers],
+				state: "init",
 			},
 			false,
 			"randomizePoolPlayers",
