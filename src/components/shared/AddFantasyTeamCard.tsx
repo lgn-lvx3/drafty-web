@@ -7,7 +7,7 @@ export const AddFantasyTeamCard: React.FC = () => {
 	const [teamName, setTeamName] = useState("");
 	const { createFantasyPlayer } = useAppStore();
 	return (
-		<Card className="bg-base-100">
+		<Card className="bg-base-100 max-w-96">
 			<Card.Body>
 				<Card.Title tag="h2" className="text-2xl">
 					Add Fantasy Team

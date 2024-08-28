@@ -185,7 +185,7 @@ export const FantasyPlayerCard: React.FC<PlayerCardProps> = ({
 								</div>
 								<Card.Actions className="justify-end">
 									<Button
-										color="primary"
+										color="ghost"
 										onClick={() => deleteFantasyPlayer(fantasyPlayer.id)}
 									>
 										Delete Fantasy Player

@@ -46,22 +46,26 @@ export default function HomeScreen() {
 						<Button
 							color="warning"
 							onClick={() => clearStore()}
-							className="absolute bottom-0 right-0 bg-"
+							className="absolute bottom-0 right-0"
 						>
 							Clear Store
 						</Button>
 					</div>
 					{/* player search list */}
-					<div className="flex-1 w-full flex-col min-w-sm mx-auto overflow-y-auto">
-						<div className="mt-20">
-							<div className="fixed flex top-0 justify-center p-5 z-10 right-1/4 translate-x-1/4">
-								<Input
-									placeholder="Search"
-									onChange={handleSearch}
-									size="lg"
-									className="w-96 mx-auto"
-								/>
+					<div className="flex flex-1 w-full justify-center overflow-y-auto">
+						<div className="fixed top-5 z-10">
+							<Input
+								placeholder="Search"
+								onChange={handleSearch}
+								size="lg"
+								className="w-96 mx-auto"
+							/>
+							<div className="text-sm text-gray-500 text-right">
+								{filteredPlayers.length} results
 							</div>
+						</div>
+
+						<div className="pt-20">
 							{filteredPlayers.map((player) => (
 								<div className="flex justify-center" key={player.id}>
 									<PlayerCard player={player} key={player.id} />
